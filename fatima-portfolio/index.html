@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fatima Zahra El Bouti – Portfolio</title>
+  <meta name="description" content="Portfolio de Fatima Zahra El Bouti, étudiante en Développement Digital – Option Web Full Stack à l'OFPPT.">
+  <meta name="theme-color" content="#F6F0E8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="nav.skip">Aller au contenu</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a href="#home" class="logo" aria-label="Fatima Zahra El Bouti">FZ<span>.</span></a>
+
+      <nav id="nav-menu" class="nav" aria-label="Navigation principale" data-i18n-aria="nav.label">
+        <ul>
+          <li><a href="#home" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="#about" data-i18n="nav.about">À propos</a></li>
+          <li><a href="#skills" data-i18n="nav.skills">Compétences</a></li>
+          <li><a href="#education" data-i18n="nav.education">Formation</a></li>
+          <li><a href="#projects" data-i18n="nav.projects">Projets</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" id="lang-toggle" class="lang-toggle" aria-label="Changer de langue" data-i18n-aria="nav.langSwitch">
+          <span data-lang-option="fr">FR</span><span class="lang-sep" aria-hidden="true">/</span><span data-lang-option="en">EN</span>
+        </button>
+        <button type="button" id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Ouvrir le menu" data-i18n-aria="nav.menu">
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow" data-i18n="hero.greeting">Bonjour, je suis</p>
+          <h1>Fatima Zahra <span>El Bouti</span></h1>
+          <p class="hero-role" data-i18n="hero.role">Étudiante en Développement Digital – Option Web Full Stack</p>
+          <p data-i18n="hero.intro1">Étudiante en deuxième année de Développement Digital, option Web Full Stack à l'OFPPT.</p>
+          <p data-i18n="hero.intro2">Je m'intéresse au développement web, à la technologie et à la création de projets numériques. J'aime apprendre, expérimenter et transformer des idées en réalisations concrètes.</p>
+          <p class="hero-welcome" data-i18n="hero.welcome">Bienvenue dans mon univers numérique.</p>
+          <p class="signature">Learning • Creating • Growing</p>
+          <div class="btn-group">
+            <a href="#projects" class="btn btn-primary" data-i18n="hero.btnProjects">Découvrir mes projets</a>
+            <a href="#about" class="btn btn-outline" data-i18n="hero.btnAbout">À propos de moi</a>
+          </div>
+        </div>
+
+        <!-- Photo : remplacez simplement assets/images/profile.jpg -->
+        <div class="hero-photo reveal">
+          <div class="photo-frame" id="photo-frame">
+            <img id="profile-photo" src="assets/images/WhatsApp Image 2026-11-21 at 16.15.30.jpeg" width="480" height="600"
+                 alt="Portrait de Fatima Zahra El Bouti" data-i18n-alt="hero.photoAlt" fetchpriority="high">
+            <div class="photo-placeholder" aria-hidden="true">
+              <span class="monogram">FZ</span>
+              <span class="placeholder-text" data-i18n="hero.photoPlaceholder">Photo à ajouter</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <p class="kicker" data-i18n="about.kicker">Qui suis-je</p>
+          <h2 data-i18n="about.title">À propos de moi</h2>
+        </header>
+        <div class="about-card reveal">
+          <p data-i18n="about.p1">Je suis une étudiante en deuxième année de Développement Digital, option Web Full Stack à l'OFPPT.</p>
+          <p data-i18n="about.p2">Au cours de ma formation, je découvre différentes technologies et je développe progressivement mes compétences en programmation, en développement web et en conception de projets numériques.</p>
+          <p data-i18n="about.p3">Je suis une personne responsable, persévérante et à l'écoute. J'apprécie le travail en équipe, l'échange d'idées et l'apprentissage continu.</p>
+          <p data-i18n="about.p4">Je souhaite continuer à progresser, développer mes compétences et réaliser des projets qui me permettent de mettre en pratique mes connaissances.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker" data-i18n="skills.kicker">Ce que j'apprends</p>
+          <h2 data-i18n="skills.title">Compétences</h2>
+          <p class="section-intro" data-i18n="skills.intro">Les technologies que je pratique et que j'approfondis au fil de ma formation.</p>
+        </header>
+
+        <div class="skills-grid">
+          <article class="card skill-card reveal">
+            <h3 data-i18n="skills.web">Développement Web</h3>
+            <ul class="chips">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Bootstrap</li>
+            </ul>
+          </article>
+          <article class="card skill-card reveal">
+            <h3 data-i18n="skills.data">Programmation et bases de données</h3>
+            <ul class="chips">
+              <li>PHP</li><li>MySQL</li><li>SQL</li>
+            </ul>
+          </article>
+          <article class="card skill-card reveal">
+            <h3 data-i18n="skills.tools">Outils et technologies complémentaires</h3>
+            <ul class="chips">
+              <li>Git</li><li>GitHub</li><li>Visual Studio Code</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <p class="kicker" data-i18n="education.kicker">Mon parcours</p>
+          <h2 data-i18n="education.title">Formation</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="card">
+              <p class="timeline-period" data-i18n="education.current.period">2025 – Présent</p>
+              <h3>OFPPT</h3>
+              <p class="timeline-degree" data-i18n="education.current.degree">Développement Digital</p>
+              <p data-i18n="education.current.detail">Option Web Full Stack – Deuxième année</p>
+            </div>
+          </li>
+          <li class="timeline-item reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="card">
+              <p class="timeline-period">2024</p>
+              <h3 data-i18n="education.bac.degree">Baccalauréat en Sciences Physiques</h3>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker" data-i18n="projects.kicker">Mes réalisations</p>
+          <h2 data-i18n="projects.title">Mes projets</h2>
+          <p class="section-intro" data-i18n="projects.intro">Des projets réalisés dans le cadre de ma formation.</p>
+        </header>
+
+        <!-- Les cartes sont générées par js/projects.js -->
+        <div id="projects-grid" class="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <header class="section-head reveal">
+          <p class="kicker" data-i18n="contact.kicker">Restons en contact</p>
+          <h2 data-i18n="contact.title">Me contacter</h2>
+        </header>
+
+        <div class="contact-card reveal">
+          <p class="contact-text" data-i18n="contact.text">Vous souhaitez découvrir mon travail, échanger ou discuter d'une opportunité ? N'hésitez pas à me contacter.</p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label" data-i18n="contact.emailLabel">E-mail</span>
+              <span class="contact-value" id="contact-email-text"></span>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a class="contact-value" id="contact-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a class="contact-value" id="contact-github" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </li>
+          </ul>
+
+          <a class="btn btn-primary" id="contact-email-btn" data-i18n="contact.btnEmail">M'envoyer un e-mail</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-name">Fatima Zahra El Bouti</p>
+        <p class="footer-signature">Learning • Creating • Growing</p>
+      </div>
+      <ul class="footer-links">
+        <li><a id="footer-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a id="footer-github" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      </ul>
+      <p class="footer-copy">© <span id="year"></span> Fatima Zahra El Bouti. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+    </div>
+  </footer>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Retour en haut" data-i18n-aria="top.label" hidden>
+    <span aria-hidden="true">↑</span>
+  </button>
+
+  <script src="js/translations.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
